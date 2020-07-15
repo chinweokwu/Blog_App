@@ -1,5 +1,5 @@
 <%= form_for(@article) do |f| %>
-    <ul>
+  <ul>
     <% @article.errors.full_messages.each do |error| %>
       <li><%= error %></li>
     <% end %>
