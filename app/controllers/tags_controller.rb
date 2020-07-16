@@ -3,7 +3,7 @@ class TagsController < ApplicationController
         @tag = Tag.find(params[:id])
     end
     def index
-        
+        @articles = Article.all
     end
     def destroy
 
